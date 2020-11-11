@@ -13,7 +13,7 @@ env:
   IMAGE_NAME: cassandra
 defaults:
   run:
-    working_directory: docker
+    working-directory: docker
 jobs:
   # Push image to GitHub Container Registry.
   cassandra:
