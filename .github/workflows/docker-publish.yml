@@ -11,9 +11,11 @@ on:
 env:
   # TODO: Change variable to your image's name.
   IMAGE_NAME: cassandra
+
 defaults:
   run:
     working-directory: docker
+
 jobs:
   # Push image to GitHub Container Registry.
   cassandra:
@@ -21,6 +23,7 @@ jobs:
     if: github.event_name == 'push'
     env:
       IMAGE_NAME: cassandra
+    
     steps:
       - uses: actions/checkout@v2
 
