@@ -1,6 +1,0 @@
-#!/bin/sh
-
-alias nodetool='nodetool $(/scripts/probe.sh auth) '
-alias nt=nodetool
-alias cqlsh='cqlsh $(/scripts/probe.sh cqlauth) '
-alias cql=cqlsh
