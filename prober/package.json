@@ -1,7 +1,7 @@
 {
   "name": "@TheWeatherCompany/prober",
   "version": "0.1.0",
-  "repository": "https://github.com/TheWeatherCompany/icm-cassandra",
+  "repository": "git://github.com/TheWeatherCompany/icm-cassandra.git",
 
   "dependencies": {
     "@kubernetes/client-node": "^0.12.2",
