@@ -1,5 +1,5 @@
 {
-  "name": "@icm-cassandra/prober",
+  "name": "prober",
   "version": "0.1.0",
 
   "dependencies": {
