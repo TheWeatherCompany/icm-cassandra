@@ -1,4 +1,4 @@
-ARG CASSANDRA_VERSION
+ARG CASSANDRA_VERSION=3.11.9
 FROM cassandra:${CASSANDRA_VERSION}
 
 # avoids overwriting .bashrc
