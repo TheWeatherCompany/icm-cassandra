@@ -1,5 +1,5 @@
 ARG CASSANDRA_VERSION
-FROM wcp-icm-remote-docker-virtual.artifactory.swg-devops.com/cassandra:${CASSANDRA_VERSION}
+FROM cassandra:${CASSANDRA_VERSION}
 
 # avoids overwriting .bashrc
 COPY .bash_aliases /root/
